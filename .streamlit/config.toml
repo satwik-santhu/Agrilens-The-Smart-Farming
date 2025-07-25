@@ -1,0 +1,33 @@
+[server]
+# Performance optimizations
+runOnSave = true
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200
+
+[browser]
+# Reduce browser overhead
+serverAddress = "localhost"
+gatherUsageStats = false
+showErrorDetails = false
+
+[theme]
+# Light theme for better performance
+primaryColor = "#2e8b57"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f8f0"
+textColor = "#262730"
+
+[client]
+# Client-side optimizations
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[runner]
+# Performance optimizations
+magicEnabled = true
+installTracer = false
+fixMatplotlib = false
+postScriptGC = true
+fastReruns = true
+enforceSerializableSessionState = false
